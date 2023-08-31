@@ -120,6 +120,23 @@ const Home = ({ navigation }) => {
           );
         })}
       </View>
+
+      <View style={{ alignItems: "center" }}>
+        <TouchableOpacity
+          style={{
+            backgroundColor: "#C0C0C0",
+            borderRadius: 5,
+            padding: 5,
+            marginTop: 5,
+            width: "50%",
+          }}
+          onPress={() => {
+            navigation.navigate("Drawer");
+          }}
+        >
+          <Text style={{ textAlign: "center" }}>Move to drawer navigator</Text>
+        </TouchableOpacity>
+      </View>
     </SafeAreaView>
   );
 };

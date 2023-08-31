@@ -1,3 +1,4 @@
+import "react-native-gesture-handler";
 import { Platform, SafeAreaView, StyleSheet, Text, View } from "react-native";
 import NewAtomicComponent from "./src/components/atoms/NewAtomicComponent/NewAtomicComponent";
 import Constants from "expo-constants";
