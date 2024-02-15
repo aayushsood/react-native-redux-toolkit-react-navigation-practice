@@ -1,5 +1,5 @@
 import React from "react";
-import { View } from "react-native";
+import { View, Platform } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Counter from "../../components/atoms/Counter/Counter";
 import Home from "../../components/atoms/Home/Home";
